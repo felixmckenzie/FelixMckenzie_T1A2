@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@700&family=Sansita&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Noto+Serif+Display:wght@700&family=Sansita&display=swap');
 
 /* Global Styles */
 *,
@@ -19,6 +18,12 @@ body{
 
 h1, h2, h3, h4, a {
     font-family: 'Noto Serif Display', sans-serif;
+    line-height: 1.25;
+}
+
+p {
+    font-family: 'Cinzel', serif;
+    line-height: 2em;
 }
 
 a{
@@ -191,28 +196,30 @@ header ul {
       display: flex;
       justify-content: flex-end;
       align-items: flex-end;
-     
+
+      
       
   }
   
   .bg-img-1{
-      background-image: url(./blog-photos/you-got-this.jpg);
+      background-image: url('./blog-photos/you-got-this.jpg');
+      background-size: cover;
   }
   
   .bg-img-2{
-      background-image: url(./blog-photos/clock-blog.jpg)
+      background-image: url('./blog-photos/clock-blog.jpg')
   }
   
   .bg-img-3{
-      background-image: url(./blog-photos/css.jpg);
+      background-image: url('./blog-photos/css.jpg');
   }
   
   .bg-img-4{
-      background-image: url(./blog-photos/computer.jpg);
+      background-image: url('./blog-photos/computer.jpg');
   }
   
   .bg-img-5{
-      background-image: url(./blog-photos/github.jpg);
+      background-image: url('./blog-photos/github.jpg');
   }
   
   .btn-blog{
@@ -238,3 +245,88 @@ header ul {
       }
   }
 
+/* About Page Styles */
+
+.grid-about-pg{
+    display: grid;
+    gap: 1em;
+    grid-template-areas: 
+    "title"
+    "image"
+    "content"
+    "technologies"
+    ;
+}
+
+.title-about{
+    grid-area: title;
+    margin: auto;
+}
+.content-section{
+    grid-area: content;
+    padding: 2em;
+    margin: 1em;
+}
+
+.technologies {
+    grid-area: technologies;
+}
+
+.content-section, .technologies{
+    padding: 2em;
+    margin: 1em;
+    background: rgba(255, 241, 230, 0.4);
+    box-shadow: rgba(149, 157, 165, 0.2)0px 8px 24px;
+}
+
+.surf-image > img {
+    grid-area: image;
+    margin-top: 0;
+    max-height: 350px;
+    min-width: 200px;
+    
+  }
+
+  .technologies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  .technologies  li {
+      list-style-type: none;
+    font-size: 1em;
+}
+
+.technologies li i {
+    padding: 1em;
+}
+
+
+@media(min-width: 700px) {
+.grid-about-pg {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+      "title title"
+      "content image"
+      "technologies technologies"
+      ;
+  }
+  
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .surf-image > img {
+      max-height: 500px;
+  }
+  .technologies{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+}
