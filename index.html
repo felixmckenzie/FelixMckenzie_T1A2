@@ -6,19 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
     <script src="https://kit.fontawesome.com/5abef049fa.js"></script>
+    <script src="nav.js" defer></script>
     <title>Home Page</title>
 </head>
 <body>
-    <div class="pg-container"></div>
-    <div class="home-grid">
-<header class="header-home">
-    <ul>
-        <li> <a href="./about.html">About</a></li>
-        <li> <a href="./work.html">Work</a></li>
-        <li> <a href="./blog.html">Blog</a></li>
-        <li><a href="./Resume.pdf"> <span class="resume">Resume</span></a></li>
-    </ul>
+<header class="primary-header">
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+        <span class="sr-only"> Button </span>
+    </button> 
+        <ul id="primary-navigation" class="primary-navigation" data-visible="false">
+       <li class="active"> <a href="./about.html">About</a></li>
+       <li class="active"> <a href="./work.html">Work</a></li>
+       <li class="active"> <a href="./blog.html">Blog</a></li>
+       <li class="active"><a href="./Resume.pdf"> <span class="resume">Resume</span></a></li>
+        </ul>
+
 </header>
+
+    <div class="home-grid">
+    
     <nav class="nav-home-left">
         <ul>
             <li><a href=""><i class="fa-brands fa-github-square fa-2x"></i></a></li>
@@ -28,16 +34,16 @@
     </nav>
     <div class="content-home">
        <h1>Felix Mckenzie</h1>
-        <h2>Aspiring Web Developer</h2>
+        <h2>Web Developer</h2>
         <h3>Byron Bay Australia</h3>
     </div>
     <div class="img-home">
         <img src="./photos/Me.jpeg" alt="Profile Picture">
     </div>
-    <footer>
-
+    <footer class="footer-home">
+            <p>Email: felixmckenzie90@gmail.com</p>
+            <p>Phone: 0478 165 965</p>
     </footer>
-    </div>
 </div>
 </body>
 </html>

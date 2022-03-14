@@ -6,14 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
     <script src="https://kit.fontawesome.com/5abef049fa.js"></script>
+    <script src="nav.js" defer></script>
     <title>About Page</title>
 </head>
 <body>
-    <header class="header-about">
-        <ul>
-          <li><a href="./index.html">Home</a></li>
+  
+  <header class="primary-header">
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+        <span class="sr-only">Button</span>
+    </button> 
+        <ul id="primary-navigation" class="primary-navigation" data-visible="false">
+      <li class="active"><a href="./index.html">Home</a></li>
+       <li class="active"> <a href="./about.html">About</a></li>
+       <li class="active"> <a href="./work.html">Work</a></li>
+       <li class="active"> <a href="./blog.html">Blog</a></li>
+       <li class="active"><a href="./Resume.pdf"> <span class="resume">Resume</span></a></li>
         </ul>
-      </header>
+</header>
+
+
       <div class="grid-about-pg">
 
       <h1 class="title-about">About</h1>
@@ -22,7 +33,7 @@
       </div>
 
       <section class="content-section">
-          <h2>My Journey So Far:</h2>
+          <h3>My Journey So Far:</h3>
         <p>
           I’m Felix, surfer, restaurateur, lover of science and technology,
           and a student of web development. I have a drive to create web based
@@ -51,27 +62,27 @@
         </p>
       </section>
 
-      <section class="achievements">
-          <div class="achievements-left">
-          <h2>Technologies I'm Learning:</h2>
-          <ul>
-              <li class="list-item"><i class="fa-brands fa-html5 fa-2x"></i>HTML</li>
-              <li class="list-item"><i class="fa-brands fa-css3-alt fa-2x"></i>CSS</li>
-              <li class="list-item"><i class="fa-brands fa-js fa-2x"></i>Javascript</li>
-              <li class="list-item"><i class="fa-brands fa-node-js fa-2x"></i>Node.js</li>
-              <li class="list-item"><i class="fa-solid fa-gem fa-2x"></i>Ruby</li>
+      <section class="about-bottom-section">
+          <ul class="goals">
+            <h3>Personal Programming Goals:</h3>
+              <li>Complete Coder Academy Bootcamp</li>
+              <li>Create a Raspberry Pi Web Server</li>
+              <li>Use Intersection Observer API to animate my portfolio</li>
           </ul>
-          </div>
-          <div class="achievements-right">
-          <h2>Achievements:</h2>
-          <ul>
-              <li class="list-item">Bachelor of Environmental Science, Southern Cross University</li>
-              <li class="list-item">Introduction To Programming, QUT Online</li>
-              <li class="list-item">Introduction To Object Orientated Programming, QUT Online</li>
-          </ul>
-          </div>
-      </section>
-      </div>
 
+          <ul class="education">
+            <h3>Education:</h3>
+            <li class="list-item">Introduction To Programming, QUT Online</li>
+            <li class="list-item">Introduction To Object Orientated Programming, QUT Online</li>
+             <li class="list-item">Bachelor of Environmental Science, Southern Cross University</li>
+          </ul>
+          </section>
+      </div>
+      <footer>
+       
+        <p>Email: felixmckenzie90@gmail.com</p>
+        <p>Phone: 0478 165 965</p>
+    
+  </footer>
 </body>
 </html>

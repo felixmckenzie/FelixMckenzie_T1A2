@@ -1,76 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./stylesheet.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylesheet.css" />
+    <script src="nav.js" defer></script>
     <title>Blog Page</title>
-</head>
-<body>
-    <header class="header-blog">
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-        </ul>
-      </header>
-  
-        <div class="title-blog">
-          <h1>Blog</h1>
-          <h2>
-            Here you'll find articles on my developer journey and other tech
-            topics I find interesting
-          </h2>
-        </div>
+  </head>
+  <body>
 
-        <div class="blog-grid">
-            <div class="blog-post">
-                <div class="blog-date"> 6th March 2022</div>
-              <h3>Changing Career at 31</h3>
-              <p>
-                My path to the world of web development after 10 years in hospitality
-              </p>
-              <div class="bg-img bg-img-1">
-                  <button class="btn-blog">Read More</button>
-              </div>
-            </div>
-            <div class="blog-post">
-              <div class="blog-date"> 6th March 2022</div>
-              <h3>Does your time seem to evaporate when learning to code?</h3>
-              <p>Coding and the art of time management</p>
-              <div class="bg-img bg-img-2">
-                 <button class="btn-blog">Read More</button>
-              </div>
-            </div>
-            <div class="blog-post">
-              <div class="blog-date"> 6th March 2022</div>
-              <h3>Grid or Flexbox? Why not use both!</h3>
-              <p>
-                The power of utilising both flexbox and grid for creating modern
-                responsive layouts
-              </p>
-              <div class="bg-img bg-img-3">
-                  <button class="btn-blog">Read More</button>
-              </div>
-            </div>
-          
-            <div class="blog-post">
-              <div class="blog-date"> 6th March 2022</div>
-              <h3>My First Week At A Coding Bootcamp</h3>
-              <p>Here's what I learnt</p>
-              <div class="bg-img bg-img-4">
-                  <button class="btn-blog">Read More</button>
-              </div>
-            </div>
-      
-            <div class="blog-post">
-              <div class="blog-date"> 6th March 2022</div>
-              <h3>All About GIT</h3>
-              <p>Commit early, commit often, write meaningful commit messages</p>
-              <div class="bg-img bg-img-5">
-                  <button class="btn-blog">Read More</button>
-              </div>
-            </div>
-          </div>
-    
-</body>
+  <header class="primary-header">
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+        <span class="sr-only">Button</span>
+    </button> 
+        <ul id="primary-navigation" class="primary-navigation" data-visible="false">
+       <li class="active"><a href="./index.html">Home</a></li>
+       <li class="active"> <a href="./about.html">About</a></li>
+       <li class="active"> <a href="./work.html">Work</a></li>
+       <li class="active"> <a href="./blog.html">Blog</a></li>
+       <li class="active"><a href="./Resume.pdf"> <span class="resume">Resume</span></a></li>
+        </ul>
+</header>
+
+    <div class="title-blog">
+      <h1>Blog</h1>
+      <h2>
+        Here you'll find articles on my developer journey and other tech topics
+        I find interesting
+      </h2>
+    </div>
+
+    <div class="blog-grid">
+      <article class="blog-post">
+        <div class="blog-date">6th March 2022</div>
+        <h3>Changing Career at 31</h3>
+        <p>
+          My path to the world of web development after 10 years in hospitality
+        </p>
+        <div class="bg-img bg-img-1">
+          <button class="btn-blog">Read More</button>
+        </div>
+      </article>
+
+      <article class="blog-post">
+        <div class="blog-date">6th March 2022</div>
+        <h3>Does your time seem to evaporate when learning to code?</h3>
+        <p>Coding and the art of time management</p>
+        <div class="bg-img bg-img-2">
+          <button class="btn-blog">Read More</button>
+        </div>
+      </article>
+
+      <article class="blog-post">
+        <div class="blog-date">6th March 2022</div>
+        <h3>Grid or Flexbox? Why not use both!</h3>
+        <p>
+          The power of utilising both flexbox and grid for creating modern
+          responsive layouts
+        </p>
+        <div class="bg-img bg-img-3">
+          <button class="btn-blog">Read More</button>
+        </div>
+      </article>
+
+      <article class="blog-post">
+        <div class="blog-date">6th March 2022</div>
+        <h3>My First Week At A Coding Bootcamp</h3>
+        <p>Here's what I learnt</p>
+        <div class="bg-img bg-img-4">
+          <button class="btn-blog">Read More</button>
+        </div>
+      </article>
+
+      <article class="blog-post">
+        <div class="blog-date">6th March 2022</div>
+        <h3>All About GIT</h3>
+        <p>Commit early, commit often, write meaningful commit messages</p>
+        <div class="bg-img bg-img-5">
+          <button class="btn-blog">Read More</button>
+        </div>
+      </article>
+    </div>
+    <footer>
+      <p>Email: felixmckenzie90@gmail.com</p>
+      <p>Phone: 0478 165 965</p>
+</footer>
+  </body>
 </html>
