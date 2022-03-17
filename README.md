@@ -1,6 +1,6 @@
 # Felix Mckenzie
 ## Portfolio Website 
-#### URL Link:
+#### URL Link: <https://felix-mckenzie.netlify.app/>
 #### Github Repo: <https://github.com/felixmckenzie/FelixMckenzie_T1A2 >
 ---
 
@@ -35,7 +35,7 @@ External links to Github, LinkedIn and Twitter are provided in a seperate naviga
 #### Footer 
 A footer is used universally throughout the portfolio with my personal contact information i.e. email address and phone number, this allows potential employers to contact me quickly and easily. 
 
-#### TECH STACK
+## TECH STACK
 The following Technologies were utilised in building the site:
    
     - HTML 5
@@ -44,6 +44,26 @@ The following Technologies were utilised in building the site:
     - Netlify (Deployment platform)
 
 ## SITE MAP 
+![SiteMap](./assets/SiteMap.png)
+
+## Screenshots
+
+#### Home Page
+![Home-Desktop](./screenshots/home-desktop.png)
+![Home-Mobile](./screenshots/home-mobile.png)
+
+#### About Page 
+![About-Desktop](./screenshots/about-desktop.png)
+![About-Bottom](./screenshots/about-bottom.png)
+![About-Mobile](./screenshots/about-mobile.png)
+
+#### Work Page
+![Work-Desktop](./screenshots/work-desktop.png)
+![Work-Mobile](./screenshots/work-mobile.png)
+
+#### Blog Page
+![Blog-Desktop](./screenshots/blog-desktop.png)
+![Blog-Mobile](./screenshots/blog-mobile.png)
 
 
 
