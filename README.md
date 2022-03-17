@@ -1,7 +1,7 @@
 # Felix Mckenzie
 ## Portfolio Website 
 #### URL Link: <https://felix-mckenzie.netlify.app/>
-#### Github Repo: <https://github.com/felixmckenzie/FelixMckenzie_T1A2 >
+#### Github Repo: <https://github.com/felixmckenzie/FelixMckenzie_T1A2>
 ---
 
 ## PURPOSE
@@ -44,26 +44,26 @@ The following Technologies were utilised in building the site:
     - Netlify (Deployment platform)
 
 ## SITE MAP 
-![SiteMap](./assets/SiteMap.png)
+![SiteMap](./docs/SiteMap.png)
 
 ## Screenshots
 
 #### Home Page
-![Home-Desktop](./screenshots/home-desktop.png)
-![Home-Mobile](./screenshots/home-mobile.png)
+![Home-Desktop](./docs/home-desktop.png)
+![Home-Mobile](./docs/home-mobile.png)
 
 #### About Page 
-![About-Desktop](./screenshots/about-desktop.png)
-![About-Bottom](./screenshots/about-bottom.png)
-![About-Mobile](./screenshots/about-mobile.png)
+![About-Desktop](./docs/about-desktop.png)
+![About-Bottom](./docs/about-bottom.png)
+![About-Mobile](./docs/about-mobile.png)
 
 #### Work Page
-![Work-Desktop](./screenshots/work-desktop.png)
-![Work-Mobile](./screenshots/work-mobile.png)
+![Work-Desktop](./docs/work-desktop.png)
+![Work-Mobile](./docs/work-mobile.png)
 
 #### Blog Page
-![Blog-Desktop](./screenshots/blog-desktop.png)
-![Blog-Mobile](./screenshots/blog-mobile.png)
+![Blog-Desktop](./docs/blog-desktop.png)
+![Blog-Mobile](./docs/blog-mobile.png)
 
 
 
