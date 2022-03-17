@@ -149,7 +149,7 @@ a .fa-brands:hover {
     position: absolute;
     background: url("./assets/bars-solid.svg") no-repeat;
     border: 0;
-    aspect-ratio: 1;
+    aspect-ratio: 1/1;
     width: 2rem;
     top: 2rem;
     right: 1rem;
@@ -203,10 +203,6 @@ footer > p {
     "content"
     "image"
     "footer";
-}
-
-.header-main {
-  grid-area: ;
 }
 
 .resume {
@@ -396,7 +392,7 @@ footer > p {
   align-items: center;
 }
 
-.about-bottom-section ul {
+.about-bottom-section ul{
   display: flex;
   flex-direction: column;
   align-items: center;
