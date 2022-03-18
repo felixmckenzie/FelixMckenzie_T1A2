@@ -28,7 +28,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background: url("../assets/blob-scene.svg") center no-repeat;
+  background: url("./assets/blob-scene.svg") center no-repeat;
   background-size: cover;
   background-attachment: scroll;
   cursor: crosshair;
@@ -147,7 +147,7 @@ a .fa-brands:hover {
   .mobile-nav-toggle {
     display: block;
     position: absolute;
-    background: url("../assets/bars-solid.svg") no-repeat;
+    background: url("./assets/bars-solid.svg") no-repeat;
     border: 0;
     aspect-ratio: 1/1;
     width: 2rem;
@@ -157,7 +157,7 @@ a .fa-brands:hover {
   }
 
   .mobile-nav-toggle[aria-expanded="true"] {
-    background: url("../assets/solid-x.svg") no-repeat;
+    background: url("./assets/solid-x.svg") no-repeat;
   }
 }
 
@@ -345,23 +345,23 @@ footer > p {
 }
 
 .bg-img-1 {
-  background-image: url("../blog-photos/you-got-this.jpg");
+  background-image: url("./blog-photos/you-got-this.jpg");
 }
 
 .bg-img-2 {
-  background-image: url("../blog-photos/clock-blog.jpg");
+  background-image: url("./blog-photos/clock-blog.jpg");
 }
 
 .bg-img-3 {
-  background-image: url("../blog-photos/css.jpg");
+  background-image: url("./blog-photos/css.jpg");
 }
 
 .bg-img-4 {
-  background-image: url("../blog-photos/computer.jpg");
+  background-image: url("./blog-photos/computer.jpg");
 }
 
 .bg-img-5 {
-  background-image: url("../blog-photos/github.jpg");
+  background-image: url("./blog-photos/github.jpg");
 }
 
 .btn-blog {
